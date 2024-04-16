@@ -71,6 +71,7 @@
   border-radius: 1px;
   height: 80%;
   background-color: #3B2C27;
+  border-radius: 1px;
 }
 
 .products {
@@ -86,12 +87,110 @@
 
 
 .box img {
-  border-radius: 3px;
+  border-radius: 1px;
 }
 
 .button:hover {
   background-color: #8b51387c;
 }
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 0;
+  max-width: 90%;
+  height: 50%;
+  align-self: center;
+  justify-self: center;
+}
+
+.aboutus {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+
+.aboutusimage {
+  border-radius: 1px;
+  width: 35%;
+  height: 100%;
+}
+
+.blogs{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+}
+
+.blogtitle {
+  align-self: center;
+  justify-self: center;
+  margin: 0 10px 50px 0;
+  font-size: 50px;
+}
+
+.blogs p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.about1 {
+  text-align: center;
+  margin: 0 0 4em 0;
+  font-size: 40px;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menuimages {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20em 0 0 0;
+  gap: 5em;
+}
+
+.Menu {
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.more h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.linkmore {
+  background-color: #C26A18;
+  padding: 7px 7px 7px 7px;
+  color: aliceblue;
+  font-size: 13px;
+}
+
+.linkmore:hover {
+  background-color: #3B2C27;
+}
+
+.Menu img {
+  width: 30%;
+}
+
 
 @media (max-width: 768px) {
   .Carousel {
@@ -119,13 +218,38 @@
     height: 50%;
     padding-bottom: 10px;
   }
+
+  .blog {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aboutus {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .blogs {
+    width: 100%;
+    height: 20%;
+    
+  }
+
+  .blogs p {
+    font-size: 15px;
+  }
+
+  .aboutusimage {
+    width: 40%;
+    height: 70%;
+  }
 }
 
 @media (max-width: 480px) {
   .Carousel {
     display: flex; 
     max-width: 100%; 
-    height: 70%;
+    height: 50%;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
@@ -134,8 +258,8 @@
   .products {
     display: flex; 
     flex-wrap: wrap;
-    max-width: 100%; 
-    height: 60%; 
+    width: 100%; 
+    height: 80%; 
     overflow-y: scroll;
   }
 
@@ -153,54 +277,45 @@
     justify-self: start;
     align-self: center;
   }
-}
 
-.blog {
-  outline: red dashed;
-  display: flex;
-  flex-direction: row;
-  margin: 0 0 20px 0;
-  max-width: 90%;
-  height: auto;
-  align-self: center;
-  justify-self: center;
-  gap: 50px;
-}
+  .blog {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+  }
 
-.aboutus {
-  display: flex;
-  width: 50%;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: auto;
-}
+  .about1 {
+    margin: 0 0 2em 0;
+  }
 
-.blogs{
-  
-  outline: red dashed;
-  width: 50%;
-  margin: 0 50px 0 0;
-}
+  .aboutusimage {
+    width: 90%;
+  }
 
-.blogs p {
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-}
+  .menuimages {
+    position: relative;
+    display: flex;
+    margin-top: 25em;
+  }
 
-.about1 {
-  text-align: center;
-  margin: 0 0 5em 0;
-}
+  .menuimages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+  }
 
-.Menu {
-  justify-self: center;
-  align-self: center;
-  outline: green dashed;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  height: auto;
-  width: 90%;
-  justify-content: space-between;
+  .more {
+    font-family: "Inter", sans-serif;
+  }
+
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow-y: scroll;
+  }
 }

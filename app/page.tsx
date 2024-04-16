@@ -120,15 +120,11 @@ const HomePage = () => {
               <h2>About Us</h2>
             </div>
             <div className={styles.aboutus}>
-              <Image
-                src={about}
-                alt="about"
-                style={{
-                  width: "30%",
-                  height: "100%",
-                }}
-              />
+              <Image className={styles.aboutusimage} src={about} alt="about" />
               <div className={styles.blogs}>
+                <div className={styles.blogtitle}>
+                  <strong>Hype Up Cafe</strong>
+                </div>
                 <p>
                   We're not just about serving a great cup of coffee (though we
                   do that exceptionally well!). Hype Up Coffee is a place to
@@ -143,15 +139,7 @@ const HomePage = () => {
                   espresso, a velvety latte, or an artfully prepared cold brew
                   to transform your day. Hype Up Coffee is where coffee lovers
                   become coffee connoisseurs.{" "}
-                  <Link
-                    style={{
-                      color: "#C26A18",
-                      fontWeight: "500",
-                      textDecoration: "underline",
-                    }}
-                    className={styles.more}
-                    href="#"
-                  >
+                  <Link className={styles.linkmore} href="#">
                     Learn More
                   </Link>
                 </p>
@@ -160,33 +148,17 @@ const HomePage = () => {
           </main>
         </div>
 
-        <div className={styles.Menu}>
-          <Image
-            src={menu}
-            alt="menu"
-            style={{
-              width: "30%",
-              height: "100%",
-            }}
-          />
+        <div className={styles.menuimages}>
+          <div className={styles.more}>
+            <h3>Want More?</h3>
+          </div>
+          <div className={styles.Menu}>
+            <Image src={menu} alt="menu" />
 
-          <Image
-            src={menu2}
-            alt="menu2"
-            style={{
-              width: "30%",
-              height: "100%",
-            }}
-          />
+            <Image src={menu2} alt="menu2" />
 
-          <Image
-            src={menu3}
-            alt="menu3"
-            style={{
-              width: "30%",
-              height: "100%",
-            }}
-          />
+            <Image src={menu3} alt="menu3" />
+          </div>
         </div>
       </div>
     </body>
