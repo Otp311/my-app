@@ -5,7 +5,8 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  height: 100em;
+  outline: rgb(187, 255, 0) dashed;
+  width: 100%;
 
 }
 
@@ -25,6 +26,10 @@
 
 .navbaritems1 {
   display: flex;
+}
+
+.burger-icon {
+  display: none;
 }
 
 .title {
@@ -191,6 +196,15 @@
   width: 30%;
 }
 
+.Footer {
+  display: flex;
+  height: 150%;
+  align-items: center;
+  justify-content: center;
+  background-color: #BAB6AA;
+
+}
+
 
 @media (max-width: 768px) {
   .Carousel {
@@ -242,6 +256,13 @@
   .aboutusimage {
     width: 40%;
     height: 70%;
+  }
+
+  .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: red dashed;
   }
 }
 
@@ -318,4 +339,13 @@
     gap: 10px;
     overflow-y: scroll;
   }
+
+  .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: rgb(21, 255, 0) dashed;
+    flex-direction: column;
+  }
+
 }

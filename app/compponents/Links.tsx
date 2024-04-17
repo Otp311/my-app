@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import styles from "./link.module.css";
 
@@ -22,7 +22,7 @@ const LinkComponent = () => {
           <Link className="px-5" href="#">
             Menu
           </Link>
-          <Link className="px-5" href="#">
+          <Link className="px-5" href="blog">
             About Us
           </Link>
         </div>

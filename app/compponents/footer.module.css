@@ -1,0 +1,103 @@
+.parag {
+    width: 80%;
+    color: black;
+    font: 500;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.contactus {
+    display: flex;
+    gap: 10px;
+    color: rgba(7, 7, 7, 0.849);
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerinfo {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 0 40px 0;
+    height: 100%;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    padding: 40px 0 40px 0;
+}
+
+.img1:hover {
+    background-color: rgba(7, 7, 7, 0.397);
+    border-radius: 10px;
+}
+
+.img2:hover {
+    background-color: rgba(7, 7, 7, 0.397);
+    border-radius: 10px;
+}
+
+.img3:hover {
+    background-color: rgba(7, 7, 7, 0.397);
+    border-radius: 10px;
+}
+
+.img4:hover {
+    background-color: rgba(7, 7, 7, 0.397);
+    border-radius: 10px;
+}
+
+.con:hover {
+    color: rgb(90, 90, 90);
+}
+
+.con1:hover {
+    color: rgb(90, 90, 90);
+}
+
+.backtotop {
+    color: rgba(7, 7, 7, 0.849);
+    font-weight: 600;
+    text-align: center;
+}
+
+.selflink:hover {
+    color: rgb(90, 90, 90);
+}
+
+@media (max-width: 480px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footerinfo {
+        display: none;;
+      }
+}

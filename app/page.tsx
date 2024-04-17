@@ -1,5 +1,8 @@
+import React from "react";
+
 import styles from "./styles.module.css";
 import LinkComponent from "./compponents/Links";
+import Footer from "./compponents/footer";
 import Image from "next/image";
 import imageone from "../public/imageone.jpg";
 import imagetwo from "../public/imagetwo.jpg";
@@ -159,6 +162,10 @@ const HomePage = () => {
 
             <Image src={menu3} alt="menu3" />
           </div>
+        </div>
+
+        <div className={styles.Footer}>
+          <Footer />
         </div>
       </div>
     </body>
