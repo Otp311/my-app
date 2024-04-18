@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./styles.module.css";
 import LinkComponent from "./compponents/Links";
-import Footer from "./compponents/footer";
+import Footer from "./links/footer";
 import Image from "next/image";
 import imageone from "../public/imageone.jpg";
 import imagetwo from "../public/imagetwo.jpg";

@@ -13,7 +13,7 @@ const LinkComponent = () => {
         </Link>
 
         <div className={styles.navbaritems1}>
-          <Link className="px-5" href="#">
+          <Link className="px-5" href="/">
             Home
           </Link>
           <Link className="px-5" href="#">
