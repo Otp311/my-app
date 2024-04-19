@@ -1,0 +1,8 @@
+.menu {
+    background-color: rgb(247, 247, 247);
+    padding: 8px;
+}
+
+.menu:hover {
+    background-color: rgb(233, 230, 230);
+}

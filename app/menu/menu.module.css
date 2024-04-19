@@ -1,0 +1,49 @@
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .productWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    gap: 50px;
+    margin: 8em 0;
+  }
+  
+  .offers h3{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .product {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 70%;
+    gap: 20px;
+    outline: red dashed;
+    justify-content: space-between;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: row;
+    width: 48.5%;
+    gap: 10px;
+    border: 0.5px solid rgb(173, 171, 171);
+    border-radius: 3px;
+    padding: 10px;
+  }
+  .box img {
+    width: 505;
+    height: 40%;
+    border-radius: 3px;
+  }
