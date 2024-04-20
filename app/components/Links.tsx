@@ -13,10 +13,18 @@ const Navbar = () => {
         </div>
 
         <div className={styles.navlink}>
-          <Link href="/">Home</Link>
-          <Link href="./menu">Menu</Link>
-          <Link href="#">About Us</Link>
-          <Link href="#">Contact Us</Link>
+          <Link className={styles.link} href="/">
+            Home
+          </Link>
+          <Link className={styles.link} href="./menu">
+            Menu
+          </Link>
+          <Link className={styles.link} href="/about" scroll={false}>
+            About Us
+          </Link>
+          <Link className={styles.link} href="#">
+            Contact Us
+          </Link>
         </div>
       </nav>
     </header>

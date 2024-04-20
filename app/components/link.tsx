@@ -7,7 +7,7 @@ import style from "../components/linkstyle.module.css";
 const Menu = () => {
   return (
     <div className={style.menu}>
-      <Link href="#">View more</Link>
+      <Link href="/menu">View more</Link>
     </div>
   );
 };

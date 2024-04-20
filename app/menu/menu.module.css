@@ -1,49 +1,116 @@
-.products {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 20px;
-  }
-  
+.productWrapper {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+
+.boxcontent strong {
+  font-size: 13px;
+  color: rgb(78, 76, 76);
+}
+
+.boxcontent p {
+  font-size: 13px;
+  color: rgb(46, 44, 44);
+}
+
+.boxcontent span {
+  font-size: 13px;
+  color: rgb(78, 76, 76);
+}
+
+.box:hover p,
+.box:hover strong {
+  color: #665e5ed7;
+  cursor: pointer;
+}
+
+.box {
+  transition: transform 0.2s ease;
+}
+
+.box:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 45%;
+  height: 50%;
+  justify-content: space-between;
+  padding: 20px;
+  outline: 0.5px solid rgb(192, 189, 189);
+  border-radius: 5px;
+}
+
+.box img {
+  border-radius: 10px;
+}
+
+.boxcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
   .productWrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    gap: 50px;
-    margin: 8em 0;
+    width: 100%;
   }
-  
-  .offers h3{
-    font-size: 30px;
-    font-family: "Poppins", sans-serif;
-  }
-  
+
   .product {
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 70%;
-    gap: 20px;
-    outline: red dashed;
-    justify-content: space-between;
+    width: 85%;
   }
-  
+
   .box {
     display: flex;
-    flex-direction: row;
-    width: 48.5%;
-    gap: 10px;
-    border: 0.5px solid rgb(173, 171, 171);
-    border-radius: 3px;
-    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
   }
+
+  .boxcontent strong {
+    font-size: 15px;
+    color: rgb(78, 76, 76);
+  }
+  
+  .boxcontent p {
+    font-size: 15px;
+    color: rgb(46, 44, 44);
+  }
+  
+  .boxcontent span {
+    font-size: 15px;
+    color: rgb(78, 76, 76);
+  }
+  
+  .box:hover p,
+  .box:hover strong {
+    color: #665e5ed7;
+    cursor: pointer;
+  }
+
   .box img {
-    width: 505;
-    height: 40%;
-    border-radius: 3px;
+    border-radius: 5px;
   }
+}
+
