@@ -8,6 +8,7 @@ import imagethree from "../public/imagethree.jpg";
 import imagefour from "../public/imagefour.jpg";
 import Menu from "./components/link";
 import photo from "../public/photo.avif";
+import Promo from "./components/promo";
 
 const HomePage = () => {
   return (
@@ -23,7 +24,7 @@ const HomePage = () => {
       <div className={styles.aboutus}>
         <h3>About Us</h3>
         <div className={styles.about}>
-          <Image src={photo} alt="coffee" width={500} height={400} />
+          <Image src={photo} alt="coffee" width={400} height={300} />
 
           <div className={styles.parag}>
             <p>
@@ -98,7 +99,9 @@ const HomePage = () => {
       </div>
 
       <div className={styles.promo}>
-        <div className={styles.ImageEffect}>.</div>
+        <div className={styles.ImageEffect}>
+          <Promo />
+        </div>
       </div>
     </div>
   );

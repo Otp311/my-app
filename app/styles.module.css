@@ -95,15 +95,16 @@
 }
 
 .about img {
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .parag {
-  text-align: center;
-  width: 40%;
+  text-align: left;
+  width: 50%;
   height: 20%;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
@@ -132,11 +133,15 @@
   }
 
   .aboutus {
+    outline: red dashed;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .about {
+    outline: blue dashed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,8 +168,10 @@
 }
 
 .promo {
-  background-color: aquamarine;
-  width: 70%;
-  height: 200px;
-  margin: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px;
+  background-color: rgb(216, 218, 219);
 }
