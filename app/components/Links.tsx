@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./link.module.css";
+import SearchBar from "./searchbar";
 
 const Navbar = () => {
   return (
@@ -25,6 +26,10 @@ const Navbar = () => {
           <Link className={styles.link} href="#">
             Contact Us
           </Link>
+
+          <div className={styles.sear}>
+            <SearchBar />
+          </div>
         </div>
       </nav>
     </header>

@@ -13,11 +13,7 @@ import Promo from "./components/promo";
 import menu from "/public/menu.jpg";
 import menu1 from "/public/menu (2).jpg";
 import menu2 from "/public/menu (3).jpg";
-import coffeeshop from "/public/coffeeshop.jpg";
-import social from "../public/social.png";
-import social1 from "../public/social1.png";
-import social2 from "../public/social2.png";
-import social3 from "../public/social3.png";
+import Footer from "./components/footer";
 
 const HomePage = () => {
   return (
@@ -140,53 +136,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-
-      <footer>
-        <div className={styles.footer}>
-          <Link href="/">Back to top</Link>
-          <div className={styles.socialmedia}>
-            <div className={styles.leftcontent}>
-              <div className="relative w-20 h-20">
-                <Link href="/">
-                  <Image src={coffeeshop} alt="coffeeshop" />
-                </Link>
-              </div>
-              <p>
-                The most Instagrammable Coffee Shop in the Philippines. Serving
-                good quality concoctions of espresso-based drinks and
-                mouth-watering food.
-              </p>
-            </div>
-
-            <div className={styles.rightcontent}>
-              <div className={styles.contacts}>
-                <div className={styles.aboutlink}>
-                  <Link href="#">About Us</Link>
-                </div>
-                <div className={styles.contactlink}>
-                  <Link href="#">Contact Us</Link>
-                </div>
-              </div>
-              <div className={styles.socials}>
-                <div className={styles.socialimage1}>
-                  <Link href="#">
-                    <Image src={social} alt="socials" width={30} height={30} />
-                  </Link>
-                </div>
-                <div className={styles.socialimage2}>
-                  <Image src={social1} alt="socials1" width={30} height={30} />
-                </div>
-                <div className={styles.socialimage3}>
-                  <Image src={social2} alt="socials2" width={30} height={30} />
-                </div>
-                <div className={styles.socialimage4}>
-                  <Image src={social3} alt="socials3" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

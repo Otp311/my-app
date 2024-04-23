@@ -16,27 +16,46 @@ const Promo = () => {
         <h2>Avail Our Promo</h2>
       </div>
       <div className={styles.images}>
-        <div className="relative h-60 w-60">
-          <Image src={cone} alt="cone" layout="fill" objectFit="cover" />
+        <div className={styles.image1}>
+          <div className="relative h-60 w-60">
+            <Link href="/menu">
+              <Image src={cone} alt="cone" layout="fill" objectFit="cover" />
+            </Link>
+          </div>
         </div>
 
-        <div className="relative h-60 w-60">
-          <Image src={ctwo} alt="ctwo" layout="fill" objectFit="cover" />
+        <div className={styles.image2}>
+          <div className="relative h-60 w-60">
+            <Link href="/menu">
+              <Image src={ctwo} alt="ctwo" layout="fill" objectFit="cover" />
+            </Link>
+          </div>
         </div>
 
-        <div className="relative h-60 w-60">
-          <Image src={cthree} alt="cthree" layout="fill" objectFit="cover" />
+        <div className={styles.image3}>
+          <div className="relative h-60 w-60">
+            <Link href="/menu">
+              <Image
+                src={cthree}
+                alt="cthree"
+                layout="fill"
+                objectFit="cover"
+              />
+            </Link>
+          </div>
         </div>
 
-        <div className="relative h-60 w-60">
-          <Link href="/menu">
-            <Image
-              src={imagethree}
-              alt="imagethree"
-              layout="fill"
-              objectFit="cover"
-            />
-          </Link>
+        <div className={styles.image4}>
+          <div className="relative h-60 w-60">
+            <Link href="/menu">
+              <Image
+                src={imagethree}
+                alt="imagethree"
+                layout="fill"
+                objectFit="cover"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

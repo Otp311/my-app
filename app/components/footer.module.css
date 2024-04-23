@@ -1,0 +1,147 @@
+.footer {
+    display: flex;
+    background-color: #BAB6AA;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .leftcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px;
+    gap: 20px;
+    width: 40%;
+  }
+  
+  .leftcontent img {
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .leftcontent p {
+    max-width: 60%;
+  }
+
+  .socialmedia {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .rightcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+    width: 20%;
+  }
+  
+  .contacts {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .socialimage1 {
+    width: 10%;
+    height: 10%;
+  }
+  
+  .socialtwitter {
+    width: 10%;
+    height: 10%;
+  }
+  
+  .socialfacebook {
+    width: 10%;
+    height: 10%;
+  }
+  
+  .socialinstagram {
+    width: 10%;
+    height: 10%;
+  }
+
+  .backtop {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .aboutlink:hover {
+    color: rgba(37, 37, 37, 0.747);
+  }
+  
+  .contactlink:hover {
+    color: rgba(37, 37, 37, 0.747);
+  }
+  
+  .socialimage1:hover img{
+    background-color: rgba(31, 30, 30, 0.575);
+    border-radius: 5px;
+  }
+  
+  .socialtwitter:hover img{
+    background-color: rgba(37, 37, 37, 0.466);
+    border-radius: 5px;
+  }
+  
+  .socialfacebook:hover img{
+    background-color: rgba(37, 37, 37, 0.466);
+    border-radius: 5px;
+  }
+  
+  .socialinstagram:hover img{
+    background-color: rgba(37, 37, 37, 0.466);
+    border-radius: 5px;
+  }
+  
+  .backtop :hover {
+    color: rgba(37, 37, 37, 0.747);
+  }
+
+  @media (max-width: 480px) {
+    .leftcontent {
+        display: none;
+      }
+    
+      .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+      }
+    
+      .socialmedia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .rightcontent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+  }
