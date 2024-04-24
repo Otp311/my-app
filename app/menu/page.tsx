@@ -26,6 +26,7 @@ import cafe19 from "/public/cafe19.jpeg";
 import cafe20 from "/public/cafe20.png";
 import cafe21 from "/public/cafe21.jpeg";
 import cafe22 from "/public/cafe22.jpeg";
+import Footer from "../components/footer";
 
 const Menu = () => {
   return (
@@ -455,6 +456,8 @@ const Menu = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };

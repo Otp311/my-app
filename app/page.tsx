@@ -44,7 +44,10 @@ const HomePage = () => {
               deliver the most flavorful and exciting cup possible. We believe
               in the power of a perfect espresso, a velvety latte, or an
               artfully prepared cold brew to transform your day. Hype Up Coffee
-              is where coffee lovers become coffee connoisseurs. Learn More
+              is where coffee lovers become coffee connoisseurs.{" "}
+              <Link style={{ fontWeight: "700", color: "grey" }} href="/about">
+                Learn More
+              </Link>
             </p>
           </div>
         </div>

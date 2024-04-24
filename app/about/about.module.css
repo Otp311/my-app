@@ -39,3 +39,24 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+@media (max-width: 480px) {
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .texts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+}

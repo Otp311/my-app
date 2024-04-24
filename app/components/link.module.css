@@ -57,3 +57,58 @@
   .link:hover::before {
     width: 100%; 
   }
+
+
+  .nav2 {
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+    .nav2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      height: 7%;
+      background-color: rgba(240, 248, 255, 0.87);
+    }
+    
+    .navicon {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .icontxt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contacticon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navbar {
+      display: none;
+    }
+
+    .logo {
+      font-size: 15px;
+    }
+  }
