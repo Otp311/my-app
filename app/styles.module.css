@@ -12,12 +12,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   margin: 8em 0;
   background-color: #F0EBE3;
 }
 
 .titlepage {
+  font-size: 100px;
+  font-family: "Kaushan Script", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+}
+
+.titlepage1 {
   font-size: 100px;
   font-family: "Kaushan Script", sans-serif;
   font-weight: 100;
@@ -93,10 +102,11 @@
 }
 
 .about {
+
   display: flex;
   flex-direction: row;
   width: 70%;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
@@ -105,7 +115,7 @@
 }
 
 .parag {
-  text-align: left;
+  text-align: justify;
   max-width: 50%;
   height: 20%;
   font-family: "Roboto", sans-serif;
@@ -139,7 +149,57 @@
   background-color: aliceblue;
 }
 
+@media (max-width: 1024px) {
+  .productWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 
+  .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .box {
+    width: 45%;
+  }
+
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .parag {
+    max-width: 90%;
+  }
+
+  .about img {
+    width: 80%;
+    height: 80%;
+  }
+}
 
 @media (max-width: 768px) {
   .productWrapper {
@@ -224,6 +284,12 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .about {

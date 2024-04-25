@@ -1,4 +1,8 @@
-import React from "react";
+"use client";
+
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import styles from "./styles.module.css";
 import Navbar from "./components/Links";
@@ -16,22 +20,67 @@ import menu2 from "/public/menu (3).jpg";
 import Footer from "./components/footer";
 
 const HomePage = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({ opacity: 1 });
+    } else {
+      controls.start({ opacity: 0 });
+    }
+  }, [controls, inView]);
+
   return (
     <div className={styles.container}>
       <Navbar />
 
       <div className={styles.subcontainer}>
-        <div className={styles.titlepage}>
-          Hype Up<br></br> Cafe
-        </div>
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          className={styles.titlepage}
+        >
+          Hype Up
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          className={styles.titlepage1}
+        >
+          Cafe
+        </motion.div>
       </div>
 
       <div className={styles.aboutus}>
-        <h3>About Us</h3>
+        <motion.h3
+          ref={ref}
+          initial={{ opacity: 0, y: -100 }}
+          animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -100 }}
+          transition={{ duration: 1 }}
+        >
+          About Us
+        </motion.h3>
         <div className={styles.about}>
-          <Image src={photo} alt="coffee" width={400} height={300} />
+          <motion.div
+            className={styles.img}
+            ref={ref}
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
+            transition={{ duration: 1 }}
+          >
+            <Image src={photo} alt="coffee" width={400} height={400} />
+          </motion.div>
 
-          <div className={styles.parag}>
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }}
+            transition={{ duration: 1 }}
+            className={styles.parag}
+          >
             <p>
               We're not just about serving a great cup of coffee (though we do
               that exceptionally well!). Hype Up Coffee is a place to connect,
@@ -49,7 +98,7 @@ const HomePage = () => {
                 Learn More
               </Link>
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
 

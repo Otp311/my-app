@@ -1,6 +1,6 @@
 .footer {
     display: flex;
-    background-color: #ecc4e0;
+    background-color: #ffefefc2;
     flex-direction: column;
     width: 100%;
     justify-content: center;
@@ -33,6 +33,7 @@
   
   .leftcontent p {
     max-width: 60%;
+    text-align: justify;
   }
 
   .socialmedia {

@@ -3,6 +3,8 @@
 import React, { useState, useRef } from "react";
 import { sendContactForm } from "../services";
 import styles from "./contact.module.css";
+import Link from "../components/Links";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const [message, setMessage] = useState("");
@@ -24,44 +26,66 @@ const Contact = () => {
   };
 
   return (
-    <div className={`${styles.container} max-w-2xl text-center`}>
-      <h1>Contact Us</h1>
-      <div className={styles.message}>
-        {message && (
-          <div>
-            {message}
-            <span onClick={() => setMessage("")}>&times;</span>
-          </div>
-        )}
+    <div className={styles.container}>
+      <Link />
+      <div className={styles.header}>
+        <h1>Contact Us</h1>
       </div>
-      <form ref={formRef} className={styles.form} onSubmit={submitContact}>
-        <input
-          id="name"
-          required
-          className={styles.input}
-          placeholder="Name*"
-          type="text"
-          minLength={3}
-          maxLength={25}
-        />
-        <input
-          id="email"
-          required
-          className={styles.input}
-          placeholder="Email Address*"
-          type="email"
-        />
-        <textarea
-          id="comment"
-          required
-          className={styles.textarea}
-          placeholder="Comment*"
-          rows={5}
-        ></textarea>
-        <button className={styles.button} type="submit">
-          Send
-        </button>
-      </form>
+      <div className={styles.content}>
+        <div className={styles.textsection}>
+          <h3>HELP US HYPE UP YOUR COFFEE EXPERIENCE!</h3>
+          <p>
+            We're always looking to make Hype Up Cafe even better. Share your
+            thoughts, suggestions, or maybe even your favorite drink combo!
+          </p>
+        </div>
+
+        <form ref={formRef} className={styles.form} onSubmit={submitContact}>
+          <input
+            id="name"
+            required
+            className={styles.input}
+            placeholder="Name"
+            type="text"
+            minLength={3}
+            maxLength={25}
+          />
+          <input
+            id="email"
+            required
+            className={styles.input}
+            placeholder="Email Address"
+            type="email"
+          />
+          <textarea
+            id="comment"
+            required
+            className={styles.textarea}
+            placeholder="Comment"
+            rows={5}
+          ></textarea>
+
+          <div className={styles.message}>
+            {message && (
+              <div className={styles.message}>
+                {message}
+                <span
+                  className={styles.closeIcon}
+                  onClick={() => setMessage("")}
+                >
+                  &times;
+                </span>
+              </div>
+            )}
+          </div>
+
+          <button className={styles.button} type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+
+      <Footer />
     </div>
   );
 };
