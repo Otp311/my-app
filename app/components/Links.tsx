@@ -32,6 +32,7 @@ const Links = () => {
       window.removeEventListener("scroll", handleVisibility);
     };
   }, [isScrollingDown, lastScrollTop]);
+
   return (
     <header className={styles.header}>
       <nav className={`${styles.navbar} ${!isVisible ? styles.hidden : ""}`}>

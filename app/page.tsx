@@ -2,7 +2,7 @@
 
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import React, { useEffect } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import Link from "next/link";
 import styles from "./styles.module.css";
 import Navbar from "./components/Links";
@@ -18,8 +18,15 @@ import menu from "/public/menu.jpg";
 import menu1 from "/public/menu (2).jpg";
 import menu2 from "/public/menu (3).jpg";
 import Footer from "./components/footer";
+import { FiFacebook } from "react-icons/fi";
 
 const HomePage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    setIsModalOpen(true);
+  }, []);
+
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -34,6 +41,26 @@ const HomePage = () => {
   return (
     <div className={styles.container}>
       <Navbar />
+
+      <Link
+        href="https://www.facebook.com/profile.php?id=100089353745300"
+        className={styles.shop}
+      >
+        <div className={styles.smallbox}>
+          <p>V</p>
+          <p>I</p>
+          <p>S</p>
+          <p>I</p>
+          <p>T</p>
+        </div>
+        <div className={styles.us}>
+          <p>U</p>
+          <p>S</p>
+        </div>
+        <div className={styles.icon}>
+          <FiFacebook size={20} />
+        </div>
+      </Link>
 
       <div className={styles.subcontainer}>
         <motion.div
@@ -76,8 +103,8 @@ const HomePage = () => {
 
           <motion.div
             ref={ref}
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }}
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 30 }}
             transition={{ duration: 1 }}
             className={styles.parag}
           >
