@@ -132,15 +132,15 @@ const AboutUs = () => {
             className={style.texts}
           >
             <p>
-              Hype Up Cafe isn't just about the coffee (although we take our
-              beans and brews very seriously!). It's a place where the energy
-              buzzes, creativity flows as freely as our signature lattes, and
-              connections spark over shared passions and unexpected
+              Hype Up Cafe isn&apos;t just about the coffee (although we take
+              our beans and brews very seriously!). It&apos;s a place where the
+              energy buzzes, creativity flows as freely as our signature lattes,
+              and connections spark over shared passions and unexpected
               conversations.
             </p>
             <br></br>
             <p>
-              Whether you're fueling up for a big day with a triple-shot
+              Whether you&apos;re fueling up for a big day with a triple-shot
               espresso, need a cozy corner to chill out with friends, or are
               looking to meet like-minded people who get your quirky humor and
               big dreams, we're your go-to spot. We believe in the power of
