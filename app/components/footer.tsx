@@ -34,10 +34,10 @@ const Footer = () => {
           <div className={styles.rightcontent}>
             <div className={styles.contacts}>
               <div className={styles.aboutlink}>
-                <Link href="#">About Us</Link>
+                <Link href="/about">About Us</Link>
               </div>
               <div className={styles.contactlink}>
-                <Link href="#">Contact Us</Link>
+                <Link href="/services">Contact Us</Link>
               </div>
             </div>
             <div className={styles.socials}>

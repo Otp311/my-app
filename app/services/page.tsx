@@ -4,7 +4,8 @@ import React, { useState, useRef } from "react";
 import { sendContactForm } from "../services";
 import styles from "./contact.module.css";
 import Link from "../components/Links";
-import Footer from "../components/Footer";
+import NavBar from "../components/navbar";
+import Footer from "../components/footer";
 
 const Contact = () => {
   const [message, setMessage] = useState("");
@@ -28,6 +29,7 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <Link />
+      <NavBar />
       <div className={styles.header}>
         <h1>Contact Us</h1>
       </div>

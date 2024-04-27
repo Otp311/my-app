@@ -6,6 +6,7 @@ import React, { useEffect, useState, Suspense } from "react";
 import Link from "next/link";
 import styles from "./styles.module.css";
 import Navbar from "./components/Links";
+import NavBar from "./components/navbar";
 import Image from "next/image";
 import imageone from "../public/imageone.jpg";
 import imagetwo from "../public/imagetwo.jpg";
@@ -41,6 +42,7 @@ const HomePage = () => {
   return (
     <div className={styles.container}>
       <Navbar />
+      <NavBar />
 
       <Link
         href="https://www.facebook.com/profile.php?id=100089353745300"

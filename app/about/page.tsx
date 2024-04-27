@@ -7,9 +7,35 @@ import style from "./about.module.css";
 import Image from "next/image";
 import about2 from "/public/about2.avif";
 import Navbar from "../components/Links";
+import NavBar from "../components/navbar";
 import Footer from "../components/footer";
+import bean from "/public/bean.jpg";
+import coffee1 from "/public/coffee1.jpg";
+
+const fadeInanimationVariant = {
+  initial: {
+    opacity: 0,
+    x: 10,
+  },
+  animate: {
+    opacity: 1,
+    x: 0,
+  },
+};
+
+const FadeInanimationVariant = {
+  initial: {
+    opacity: 0,
+    x: -20,
+  },
+  animate: {
+    opacity: 1,
+    x: 0,
+  },
+};
 
 const AboutUs = () => {
+  //first animation
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -23,6 +49,7 @@ const AboutUs = () => {
   return (
     <div className={style.Container}>
       <Navbar />
+      <NavBar />
 
       <div className={style.aboutContainer}>
         <div className={style.h1}>
@@ -90,12 +117,12 @@ const AboutUs = () => {
         <div className={style.aboutUs}>
           <motion.div
             ref={ref}
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }}
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 30 }}
             transition={{ duration: 1 }}
             className={style.aboutimage}
           >
-            <Image src={about2} alt="about" width={400} height={400} />
+            <Image src={about2} alt="about" width={300} height={400} />
           </motion.div>
           <motion.div
             ref={ref}
@@ -123,6 +150,68 @@ const AboutUs = () => {
             </p>
           </motion.div>
         </div>
+
+        <motion.div
+          variants={fadeInanimationVariant}
+          initial="initial"
+          transition={{ duration: 1.5 }}
+          whileInView="animate"
+          className={style.camefrom}
+        >
+          <Image src={bean} alt="bean" width={300} height={400} />
+
+          <div className={style.card}>
+            <h1>The Globe-Trotting Story</h1>
+            <p>
+              Our coffee beans weren't content to stay in just one place.
+              They're adventurers, world travelers, with stories to tell. Each
+              sip is a journey – from the Ethiopian highlands to the
+              sun-drenched slopes of Colombia, to the volcanic soils of
+              Indonesia. We carefully source our beans from small farms with big
+              hearts, ensuring your cup isn't just delicious, it's a force for
+              good.
+            </p>
+
+            <p>
+              Our coffee beans have more passport stamps than you do! They've
+              scaled cloud-kissed mountains in Colombia, basked in the
+              equatorial warmth of Sumatra, and danced with the winds of
+              Ethiopia. Each origin has a tale to tell, and every roast delivers
+              a world of flavor straight to your cup.
+            </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          variants={FadeInanimationVariant}
+          initial="initial"
+          transition={{ duration: 1.5 }}
+          whileInView="animate"
+          className={style.explorer}
+        >
+          <Image src={coffee1} alt="coffee1" width={300} height={400} />
+
+          <div className={style.card2}>
+            <h1>The Bean with Wanderlust</h1>
+            <p>
+              Forget travel guides, our coffee beans write their own. They've
+              trekked through mist-shrouded rainforests, soaked up the golden
+              rays of equatorial sun, and embraced the rich volcanic soil of
+              distant islands. Our commitment is to bring those journeys home,
+              transforming those experiences into the most vibrant,
+              wanderlust-filled coffee you'll ever taste.
+            </p>
+
+            <p>
+              Our coffee beans don't believe in boundaries. They journey from
+              the fertile highlands with a thirst for adventure. Each sip is
+              infused with the fearless spirit of a bean that refused to stay
+              put. We source from partners who share this love for the
+              unexpected, the unique, the bold. This is coffee for the restless
+              at heart.
+            </p>
+          </div>
+        </motion.div>
       </div>
 
       <Footer />

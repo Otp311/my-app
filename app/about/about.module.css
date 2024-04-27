@@ -11,6 +11,7 @@
 .textContainer2 {
     display: flex;
     flex-direction: row;
+    gap: 5px;
 }
 
 .textContainer {
@@ -18,6 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 5px;
 }
 
 .h1 {
@@ -26,14 +28,14 @@
     align-items: center;
     flex-direction: row;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    gap: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    gap: 30px;
     width: 100%;
 }
 
 .aboutimage img {
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .aboutUs {
@@ -42,21 +44,90 @@
     width: 70%;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-around;
     gap: 20px;
+    margin-bottom: 90px;
 }
 
 .texts {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 50%;
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 15px;
     text-align: justify;
+}
+
+.camefrom {
+    display: flex;
+    width: 70%;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 95px 0 95px;
+}
+
+.camefrom img {
+    border-radius: 3px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
+}
+
+.card p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: auto;
+    text-align: justify;
+}
+
+.card h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.explorer {
+    display: flex;
+    width: 70%;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.card2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: auto;
+    text-align: justify;
+}
+
+.explorer img {
+    border-radius: 3px;
+}
+
+.card2 h1 {
+    font-size: 30px;
+    font-weight: 600;
 }
 
 @media (max-width: 480px) {
@@ -71,11 +142,62 @@
         width: 100%;
     }
 
-    .texts {
+    .texts  {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .camefrom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .card {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: justify;
         width: 100%;
+    }
+
+    .card h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .card p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .explorer {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .card2 p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        width: 90%;
+        text-align: justify;
     }
 }

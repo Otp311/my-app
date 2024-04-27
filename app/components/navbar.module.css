@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.menutoggle {
+    display: none; /* Hide the menu toggle button by default */
+  }
+  
+  .menutoggle div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navLinks li {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .menutoggle {
+      display: block; 
+      cursor: pointer;
+      position: fixed;
+      top: 15px;
+      left: 15px;
+    }
+  
+    .navLinks {
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      gap: 40px;
+      top: 60px;
+      left: 0;
+      background-color: #f9f9f9;
+      width: 100%;
+      height: 100%;
+      padding: 20px 0 0 20px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      opacity: 0; /* Hide the menu by default */
+      transition: opacity 0.5s ease-in-out;
+      z-index: 20;
+    }
+  
+    .navLinks.open {
+      opacity: 1; /* Show the menu when isOpen is true */
+      pointer-events: all; /* Enable pointer events when isOpen is true */
+    }
+  
+    .menutoggle div.open:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .menutoggle div.open:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .menutoggle div.open:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }

@@ -40,12 +40,14 @@ import assorteddonuts from "/public/assorteddonuts.jpg";
 import classiicwaffle from "/public/classiicwaffle.jpg";
 import bel1waffle from "/public/bel1waffle.jpg";
 import belwaffle from "/public/belwaffle.jpg";
+import NavBar from "../components/navbar";
 
 const Menu = () => {
   return (
     <div className={styles.container}>
       <div>
         <Navbar />
+        <NavBar />
       </div>
 
       <div className={styles.productWrapper}>
