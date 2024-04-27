@@ -37,8 +37,8 @@ const Contact = () => {
         <div className={styles.textsection}>
           <h3>HELP US HYPE UP YOUR COFFEE EXPERIENCE!</h3>
           <p>
-            We're always looking to make Hype Up Cafe even better. Share your
-            thoughts, suggestions, or maybe even your favorite drink combo!
+            We&apos;re always looking to make Hype Up Cafe even better. Share
+            your thoughts, suggestions, or maybe even your favorite drink combo!
           </p>
         </div>
 

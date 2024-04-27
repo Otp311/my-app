@@ -111,18 +111,18 @@ const HomePage = () => {
             className={styles.parag}
           >
             <p>
-              We're not just about serving a great cup of coffee (though we do
-              that exceptionally well!). Hype Up Coffee is a place to connect,
-              unwind, and find that extra spark of inspiration. Whether you're a
-              neighborhood regular or just passing through, we want you to feel
-              the energy. Our expert baristas craft every drink with care and a
-              whole lot of passion. Come for the coffee, stay for the vibe.
-              Coffee is our craft. From sourcing the finest beans to perfecting
-              our brewing techniques, we're all about pushing boundaries to
-              deliver the most flavorful and exciting cup possible. We believe
-              in the power of a perfect espresso, a velvety latte, or an
-              artfully prepared cold brew to transform your day. Hype Up Coffee
-              is where coffee lovers become coffee connoisseurs.{" "}
+              We&apos;re not just about serving a great cup of coffee (though we
+              do that exceptionally well!). Hype Up Coffee is a place to
+              connect, unwind, and find that extra spark of inspiration. Whether
+              you&apos;re a neighborhood regular or just passing through, we
+              want you to feel the energy. Our expert baristas craft every drink
+              with care and a whole lot of passion. Come for the coffee, stay
+              for the vibe. Coffee is our craft. From sourcing the finest beans
+              to perfecting our brewing techniques, we&apos;re all about pushing
+              boundaries to deliver the most flavorful and exciting cup
+              possible. We believe in the power of a perfect espresso, a velvety
+              latte, or an artfully prepared cold brew to transform your day.
+              Hype Up Coffee is where coffee lovers become coffee connoisseurs.{" "}
               <Link style={{ fontWeight: "700", color: "grey" }} href="/about">
                 Learn More
               </Link>

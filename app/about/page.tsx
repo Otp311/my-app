@@ -163,9 +163,9 @@ const AboutUs = () => {
           <div className={style.card}>
             <h1>The Globe-Trotting Story</h1>
             <p>
-              Our coffee beans weren't content to stay in just one place.
-              They're adventurers, world travelers, with stories to tell. Each
-              sip is a journey – from the Ethiopian highlands to the
+              Our coffee beans weren&apos;t content to stay in just one place.
+              They&apos;re adventurers, world travelers, with stories to tell.
+              Each sip is a journey from the Ethiopian highlands to the
               sun-drenched slopes of Colombia, to the volcanic soils of
               Indonesia. We carefully source our beans from small farms with big
               hearts, ensuring your cup isn't just delicious, it's a force for
@@ -173,9 +173,9 @@ const AboutUs = () => {
             </p>
 
             <p>
-              Our coffee beans have more passport stamps than you do! They've
-              scaled cloud-kissed mountains in Colombia, basked in the
-              equatorial warmth of Sumatra, and danced with the winds of
+              Our coffee beans have more passport stamps than you do!
+              They&apos;ve scaled cloud-kissed mountains in Colombia, basked in
+              the equatorial warmth of Sumatra, and danced with the winds of
               Ethiopia. Each origin has a tale to tell, and every roast delivers
               a world of flavor straight to your cup.
             </p>
@@ -194,18 +194,18 @@ const AboutUs = () => {
           <div className={style.card2}>
             <h1>The Bean with Wanderlust</h1>
             <p>
-              Forget travel guides, our coffee beans write their own. They've
-              trekked through mist-shrouded rainforests, soaked up the golden
-              rays of equatorial sun, and embraced the rich volcanic soil of
-              distant islands. Our commitment is to bring those journeys home,
-              transforming those experiences into the most vibrant,
+              Forget travel guides, our coffee beans write their own.
+              They&apos;ve trekked through mist-shrouded rainforests, soaked up
+              the golden rays of equatorial sun, and embraced the rich volcanic
+              soil of distant islands. Our commitment is to bring those journeys
+              home, transforming those experiences into the most vibrant,
               wanderlust-filled coffee you'll ever taste.
             </p>
 
             <p>
-              Our coffee beans don't believe in boundaries. They journey from
-              the fertile highlands with a thirst for adventure. Each sip is
-              infused with the fearless spirit of a bean that refused to stay
+              Our coffee beans don&apos;t believe in boundaries. They journey
+              from the fertile highlands with a thirst for adventure. Each sip
+              is infused with the fearless spirit of a bean that refused to stay
               put. We source from partners who share this love for the
               unexpected, the unique, the bold. This is coffee for the restless
               at heart.
