@@ -143,7 +143,7 @@ const AboutUs = () => {
               Whether you&apos;re fueling up for a big day with a triple-shot
               espresso, need a cozy corner to chill out with friends, or are
               looking to meet like-minded people who get your quirky humor and
-              big dreams, we're your go-to spot. We believe in the power of
+              big dreams, we&apos;re your go-to spot. We believe in the power of
               community, the inspiration that comes from being around other
               driven individuals, and of course, the magical way a great cup of
               coffee can change your whole day.
@@ -168,8 +168,8 @@ const AboutUs = () => {
               Each sip is a journey from the Ethiopian highlands to the
               sun-drenched slopes of Colombia, to the volcanic soils of
               Indonesia. We carefully source our beans from small farms with big
-              hearts, ensuring your cup isn't just delicious, it's a force for
-              good.
+              hearts, ensuring your cup isn&apos;t just delicious, it&apos;s a
+              force for good.
             </p>
 
             <p>
@@ -199,7 +199,7 @@ const AboutUs = () => {
               the golden rays of equatorial sun, and embraced the rich volcanic
               soil of distant islands. Our commitment is to bring those journeys
               home, transforming those experiences into the most vibrant,
-              wanderlust-filled coffee you'll ever taste.
+              wanderlust-filled coffee you&apos;ll ever taste.
             </p>
 
             <p>
