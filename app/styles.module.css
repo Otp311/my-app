@@ -345,6 +345,20 @@
     height: 80%;
   }
 
-  
+  .more {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+  }
+
+  .moreimages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 500px;
+  }
 }
 

@@ -52,7 +52,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className={styles.socialfacebook}>
-                <Link href="/">
+                <Link href="https://www.facebook.com/profile.php?id=100089353745300">
                   <Image src={social2} alt="socials2" />
                 </Link>
               </div>

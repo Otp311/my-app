@@ -25,26 +25,20 @@ const NavBar = () => {
       >
         <li>
           <Link href="/" passHref>
-            <motion.div onClick={toggleMenu} whileHover={{ scale: 1.1 }}>
-              Home
-            </motion.div>
+            Home
           </Link>
         </li>
         <li>
-          <Link href="/menu">Menun</Link>
+          <Link href="/menu">Menu</Link>
         </li>
         <li>
           <Link href="/about" passHref>
-            <motion.div onClick={toggleMenu} whileHover={{ scale: 1.1 }}>
-              About
-            </motion.div>
+            About
           </Link>
         </li>
         <li>
           <Link href="/services" passHref>
-            <motion.div onClick={toggleMenu} whileHover={{ scale: 1.1 }}>
-              Contact Us
-            </motion.div>
+            Contact Us
           </Link>
         </li>
       </motion.ul>

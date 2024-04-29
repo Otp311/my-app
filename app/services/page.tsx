@@ -9,18 +9,28 @@ import Footer from "../components/footer";
 
 const Contact = () => {
   const [message, setMessage] = useState("");
-  const formRef = useRef();
-  const submitContact = async (e) => {
+  const formRef = useRef<HTMLFormElement>(null);
+
+  const submitContact = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(e);
+    const name = (
+      e.currentTarget.elements.namedItem("name") as HTMLInputElement
+    ).value;
+    const email = (
+      e.currentTarget.elements.namedItem("email") as HTMLInputElement
+    ).value;
+    const comment = (
+      e.currentTarget.elements.namedItem("comment") as HTMLTextAreaElement
+    ).value;
     const res = await sendContactForm({
-      name: e.target[0].value,
-      email: e.target[1].value,
-      comment: e.target[2].value,
+      name,
+      email,
+      comment,
     });
-    if (res == 0) {
+    if (res === 0) {
       setMessage("Thank you for your valuable comment!");
-      formRef.current.reset();
+      if (formRef.current) formRef.current.reset();
     } else {
       setMessage("Something went wrong! Please try again");
     }
