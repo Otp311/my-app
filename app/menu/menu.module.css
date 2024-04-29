@@ -33,16 +33,16 @@
 
 .boxcontent strong {
   font-size: 12px;
-  color: rgb(78, 76, 76);
+  color: rgb(58, 58, 58);
 }
 
 .boxcontent p {
   font-size: 12px;
-  color: rgb(46, 44, 44);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .boxcontent span {
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(78, 76, 76);
 }
 
@@ -80,6 +80,7 @@
 
 .boxcontent {
   display: flex;
+  gap: 10px;
   flex-direction: column;
 }
 

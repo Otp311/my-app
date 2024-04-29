@@ -41,6 +41,7 @@ import classiicwaffle from "/public/classiicwaffle.jpg";
 import bel1waffle from "/public/bel1waffle.jpg";
 import belwaffle from "/public/belwaffle.jpg";
 import NavBar from "../components/navbar";
+import Link from "next/link";
 
 const Menu = () => {
   return (
@@ -55,7 +56,10 @@ const Menu = () => {
           <div className={styles.title}>Coffee Beverages</div>
 
           <div className={styles.product}>
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image
                   className={styles.image}
@@ -71,9 +75,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src="/icedcoffee.png" alt="icedcoffee" layout="fill" />
               </div>
@@ -84,9 +91,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src="/imagethree.jpg" alt="imagethree" layout="fill" />
               </div>
@@ -99,9 +109,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src="/imagefour.jpg" alt="imagefour" layout="fill" />
               </div>
@@ -112,9 +125,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe} alt="cafe" layout="fill" />
               </div>
@@ -125,9 +141,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe1} alt="cafe1" layout="fill" />
               </div>
@@ -141,9 +160,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe2} alt="cafe2" layout="fill" />
               </div>
@@ -154,9 +176,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe3}
@@ -167,17 +192,17 @@ const Menu = () => {
               </div>
               <div className={styles.boxcontent}>
                 <strong>Cold Brew Iced Coffee</strong>
-                <p>
-                  Slow brewed with cold water for 16 hours, creating a smooth
-                  and rich flavored brew
-                </p>
+                <p>Slow brewed with cold water for 16 hours.</p>
                 <i>
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe4}
@@ -193,9 +218,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe5}
@@ -211,9 +239,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe6}
@@ -229,9 +260,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe7}
@@ -247,7 +281,7 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -255,7 +289,10 @@ const Menu = () => {
           <div className={styles.title}>Other Beverages</div>
 
           <div className={styles.product}>
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image
                   className={styles.image}
@@ -271,9 +308,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe10} alt="cafe10" layout="fill" />
               </div>
@@ -284,9 +324,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe11} alt="cafe11" layout="fill" />
               </div>
@@ -297,9 +340,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe12} alt="cafe12" layout="fill" />
               </div>
@@ -310,9 +356,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe13} alt="cafe13" layout="fill" />
               </div>
@@ -323,9 +372,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe14} alt="cafe14" layout="fill" />
               </div>
@@ -336,9 +388,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cafe15} alt="cafe15" layout="fill" />
               </div>
@@ -349,9 +404,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe16}
@@ -363,15 +421,18 @@ const Menu = () => {
               <div className={styles.boxcontent}>
                 <strong>Iced Mocha</strong>
                 <p>
-                  ADouble shot of espressso, chocolate, milk, served over ice.
+                  Double shot of espressso, chocolate, milk, served over ice.
                 </p>
                 <i>
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe17}
@@ -387,9 +448,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe18}
@@ -405,9 +469,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe19}
@@ -423,9 +490,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe20}
@@ -441,9 +511,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe21}
@@ -459,9 +532,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={cafe22}
@@ -479,7 +555,7 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -487,7 +563,10 @@ const Menu = () => {
           <div className={styles.title}>Burgers</div>
 
           <div className={styles.product}>
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={classicburger} alt="classicburger" layout="fill" />
               </div>
@@ -498,9 +577,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={cheeseburger} alt="cheeseburger" layout="fill" />
               </div>
@@ -511,9 +593,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={burger1} alt="burger1" layout="fill" />
               </div>
@@ -524,9 +609,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={hypeburger} alt="hypeburger" layout="fill" />
               </div>
@@ -537,7 +625,7 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -545,7 +633,10 @@ const Menu = () => {
           <div className={styles.title}>Sandwiches</div>
 
           <div className={styles.product}>
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image
                   src={grilledsandwich}
@@ -560,9 +651,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={hamandcheese} alt="hamandcheese" layout="fill" />
               </div>
@@ -573,9 +667,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={pepperoni} alt="pepperoni" layout="fill" />
               </div>
@@ -586,9 +683,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={hamandegg}
@@ -604,7 +704,7 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -612,7 +712,10 @@ const Menu = () => {
           <div className={styles.title}>Donuts & Waffles</div>
 
           <div className={styles.product}>
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={glazeddonuts} alt="glazeddonuts" layout="fill" />
               </div>
@@ -623,9 +726,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image
                   src={assorteddonuts}
@@ -640,9 +746,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative w-20 h-20">
                 <Image src={classiicwaffle} alt="classicwaffle" layout="fill" />
               </div>
@@ -653,9 +762,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={bel1waffle}
@@ -671,9 +783,12 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.box}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100089353745300"
+              className={styles.box}
+            >
               <div className="relative h-20 w-20">
                 <Image
                   src={belwaffle}
@@ -689,7 +804,7 @@ const Menu = () => {
                   <span>₱125.00</span>
                 </i>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
