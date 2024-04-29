@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import styles from "./navbar.module.css";
 
-const navBar = ({ isToggled }) => {
+const NavBar = ({ isToggled }: { isToggled: boolean }) => {
   const items = ["Home", "Products", "Services", "About"];
 
   const navList = {
@@ -58,4 +58,4 @@ const navBar = ({ isToggled }) => {
   );
 };
 
-export default navBar;
+export default NavBar;
