@@ -15,7 +15,7 @@
   flex-direction: column;
   width: 100%;
   margin: 8em 0;
-  background-color: #F0EBE3;
+  background-color: #e9cdf8c2;
 }
 
 .titlepage {
@@ -82,7 +82,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(230, 230, 230);
+  background-color: #e9cdf8c2;
   gap: 50px;
   margin: 8em 0;
 }
@@ -114,7 +114,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  outline: red dashed;
 }
 
 .boxcontent p {
@@ -167,7 +166,7 @@
 .promo {
   width: 100%;
   margin-bottom: 8em;
-  background-color: rgb(233, 233, 233);
+  background-color: #e9cdf8c2;
 }
 
 .more {
@@ -188,7 +187,7 @@
   justify-content: space-between;
   overflow-x: scroll;
   gap: 50px;
-  background-color: aliceblue;
+  background-color: #e9cdf8c2;
 }
 
 @media (max-width: 1024px) {

@@ -1,0 +1,302 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Peanut Butter Cream",
+      "price": 125.0,
+      "description": "Always pulled as a double, unless specified",
+      "image": "imageone.jpg"
+    },
+
+    {
+      "id": 2,
+      "name": "Iced Americano 16 oz.",
+      "price": 125.0,
+      "description": "Double shot of espreso, water. Served over ice.",
+      "image": "icedcoffee.png"
+    },
+
+    {
+      "id": 3,
+      "name": "Iced Cortado",
+      "price": 125.0,
+      "description": "Equal parts: double espreso shot to milk. Serves over ice.",
+      "image": "imagethree.jpg"
+    },
+
+    {
+      "id": 4,
+      "name": "Peanut Butter Cream",
+      "price": 125.0,
+      "description": "Always pulled as a double, unless specified.",
+      "image": "imagefour.jpg"
+    },
+
+    {
+      "id": 5,
+      "name": "Latte",
+      "price": 125.0,
+      "description": "Always pulled as a double, unless specified.",
+      "image": ".cafe.png"
+    },
+
+    {
+      "id": 6,
+      "name": "Cortado",
+      "price": 125.0,
+      "description": "Equal parts of double espreso shot: silky, steamed milk of choice.",
+      "image": "cafe1.png"
+    },
+
+    {
+      "id": 7,
+      "name": "Peanut Butter Cream",
+      "price": 125.0,
+      "description": "Always pulled as a double, unless specified.",
+      "image": "cafe2.png"
+    },
+
+    {
+      "id": 8,
+      "name": "Cold Brew Iced Coffee",
+      "price": 125.0,
+      "description": "Slow brewed with cold water for 16 hours.",
+      "image": "cafe3.png"
+    },
+
+    {
+      "id": 9,
+      "name": "Iced Cortado",
+      "price": 125.0,
+      "description": "Equal parts of double espreso shot.",
+      "image": "cafe4.png"
+    },
+
+    {
+      "id": 10,
+      "name": "Iced Macchiato",
+      "price": 125.0,
+      "description": "Double espreso shot, topped with small amount os steamed",
+      "image": "cafe5.png"
+    },
+
+    {
+      "id": 11,
+      "name": "Macchiato",
+      "price": 125.0,
+      "description": "A rotating selection of single origin drip coffee.",
+      "image": "cafe6.png"
+    },
+
+    {
+      "id": 12,
+      "name": "Cappuccino",
+      "price": 125.0,
+      "description": "Double shot of espresso, silky foamed milk of choice.",
+      "image": "cafe7.png"
+    },
+
+    {
+      "id": 13,
+      "name": "Espreso Over Ice",
+      "price": 125.0,
+      "description": "Double shot of espresso, water,. Served over ice.",
+      "image": "cafe9.png"
+    },
+
+    {
+      "id": 14,
+      "name": "Matcha Green Tea Latte",
+      "price": 125.0,
+      "description": "Kettl ceremonial-grade matcha. milk,served over iced.",
+      "image": "cafe10.png"
+    },
+
+    {
+      "id": 15,
+      "name": "Iced Latte 16 oz.",
+      "price": 125.0,
+      "description": "Double shot of espresso, milk, water, served over ice.",
+      "image": "cafe11.png"
+    },
+
+    {
+      "id": 16,
+      "name": "Iced Mocha",
+      "price": 125.0,
+      "description": "Double shot of espresso, chocolate,milk, served over ice.",
+      "image": "cafe12.png"
+    },
+
+    {
+      "id": 17,
+      "name": "Iced Matcha Latte 16 oz.",
+      "price": 125.0,
+      "description": "Always pulled as a double, unless specified.",
+      "image": "cafe13.png"
+    },
+
+    {
+      "id": 18,
+      "name": "Cappucino",
+      "price": 125.0,
+      "description": "Double shot of espresso, silky foamed milk of choice.",
+      "image": "cafe14.png"
+    },
+
+    {
+      "id": 19,
+      "name": "Iced Chai 16 oz.",
+      "price": 125.0,
+      "description": "Always pulled as a double, unless specified.",
+      "image": "cafe15.png"
+    },
+
+    {
+      "id": 20,
+      "name": "Iced Mocha",
+      "price": 125.0,
+      "description": " Double shot of espressso, chocolate, milk, served over ice.",
+      "image": "cafe16.png"
+    },
+
+    {
+      "id": 21,
+      "name": "Iced Golden Turmeric Latte",
+      "price": 125.0,
+      "description": " Golden turmeric tonic powder, milk. Served over ice.",
+      "image": "cafe17.png"
+    },
+
+    {
+      "id": 22,
+      "name": "Hot Chocolate",
+      "price": 125.0,
+      "description": "Dark Chocolate, topped with Cocoa powder.",
+      "image": "cafe18.png"
+    },
+
+    {
+      "id": 23,
+      "name": "Seasonal Drink Special",
+      "price": 125.0,
+      "description": "A rotating selection of single origin drip coffee.",
+      "image": "cafe19.png"
+    },
+
+    {
+      "id": 24,
+      "name": "Americano",
+      "price": 125.0,
+      "description": "A rotating selection of single origin drip coffee.",
+      "image": "cafe20.png"
+    },
+
+    {
+      "id": 25,
+      "name": "Iced Capp/Flat White",
+      "price": 125.0,
+      "description": "A rotating selection of single origin drip coffee.",
+      "image": "cafe21.png"
+    },
+
+    {
+      "id": 26,
+      "name": " Farmacy x The ELK - Soothing Honey Oat Milk Latte",
+      "price": 125.0,
+      "description": "Chamomile, honey espresso, oat milk, cinnamon",
+      "image": "cafe22.png"
+    },
+
+    {
+      "id": 27,
+      "name": " Classic Burger",
+      "price": 125.0,
+      "image": "classicburger.jpg"
+    },
+
+    {
+      "id": 28,
+      "name": " Cheese Burger",
+      "price": 125.0,
+      "image": "cheeseburger.jpg"
+    },
+
+    {
+      "id": 29,
+      "name": " Hype Burger",
+      "price": 125.0,
+      "image": "burger1.webp"
+    },
+
+    {
+      "id": 30,
+      "name": " Regular Burger",
+      "price": 125.0,
+      "image": "hypeburger.jpg"
+    },
+
+    {
+      "id": 31,
+      "name": " Grilled Sandwich",
+      "price": 125.0,
+      "image": "grilledsandwich.jpg"
+    },
+
+    {
+      "id": 32,
+      "name": " Ham and Cheese",
+      "price": 125.0,
+      "image": "hamandcheese.jpg"
+    },
+
+    {
+      "id": 33,
+      "name": " Pepperoni & Cheese",
+      "price": 125.0,
+      "image": "pepperoni.jpg"
+    },
+
+    {
+      "id": 34,
+      "name": " Ham and Egg",
+      "price": 125.0,
+      "image": "hamandegg.jpg"
+    },
+
+    {
+      "id": 35,
+      "name": "Glazed Mini Donuts",
+      "price": 125.0,
+      "image": "glazeddonuts.jpg"
+    },
+
+    {
+      "id": 36,
+      "name": "Assorted Mini Donuts",
+      "price": 125.0,
+      "image": "assorteddonuts.jpg"
+    },
+
+    {
+      "id": 37,
+      "name": "Classic Waffle",
+      "price": 125.0,
+      "image": "classicburger.jpg"
+    },
+
+    {
+      "id": 38,
+      "name": "Belgian Liege Waffle",
+      "price": 125.0,
+      "image": "belwaffle1.jpg"
+    },
+
+    {
+      "id": 39,
+      "name": "Belgian Liege Waffle",
+      "price": 125.0,
+      "image": "belwaffle.jpg"
+    }
+  ]
+}
