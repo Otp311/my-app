@@ -69,7 +69,7 @@
 
 .button {
   background-color: rgba(206, 156, 216, 0.747);
-  padding: 5px 20px 5px 20px;
+  padding: 5px 40px 5px 40px;
   transition: 0.3s;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
@@ -103,6 +103,47 @@
   font-size: 17px;
   font-weight: 800;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .form {
+    display: flex;
+    width: 90%;
+  }
+
+  .textsection {
+    width: 90%;
+  }
+
+  .textsection {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .textsection h3{
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 480px) {

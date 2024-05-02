@@ -56,10 +56,7 @@ const Menu = () => {
           <div className={styles.title}>Coffee Beverages</div>
 
           <div className={styles.product}>
-            <Link
-              href="https://www.facebook.com/profile.php?id=100089353745300"
-              className={styles.box}
-            >
+            <Link href="./blog" className={styles.box}>
               <div className="relative w-20 h-20">
                 <Image
                   className={styles.image}

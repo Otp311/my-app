@@ -18,8 +18,8 @@ const NavBar = () => {
         <div className={isOpen ? "open" : ""}></div>
       </div>
       <motion.ul
-        initial={{ opacity: 0, x: -100 }}
-        animate={{ opacity: isOpen ? 1 : 0, x: isOpen ? 0 : -100 }}
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: isOpen ? 1 : 0, x: isOpen ? 0 : 100 }}
         transition={{ duration: 0.5 }}
         className={`${style.navLinks} ${isOpen ? "open" : ""}`}
       >

@@ -190,57 +190,7 @@
   background-color: #e9cdf8c2;
 }
 
-@media (max-width: 1024px) {
-  .productWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
 
-  .products {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .product {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-  }
-
-  .box {
-    width: 45%;
-  }
-
-  .aboutus {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 20px;
-  }
-
-  .parag {
-    max-width: 90%;
-  }
-
-  .about img {
-    width: 80%;
-    height: 80%;
-  }
-}
 
 @media (max-width: 768px) {
   .productWrapper {

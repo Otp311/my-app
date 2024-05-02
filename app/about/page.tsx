@@ -47,7 +47,7 @@ const AboutUs = () => {
     }
   }, [controls, inView]);
   return (
-    <div className={style.Container}>
+    <div className={style.container}>
       <Navbar />
       <NavBar />
 
