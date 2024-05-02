@@ -62,6 +62,10 @@
   width: 100%;
 }
 
+.input {
+  padding: 20px;
+}
+
 .input::placeholder, .textarea::placeholder {
   font-size: 15px;
   font-style: normal;
@@ -69,7 +73,7 @@
 
 .button {
   background-color: rgba(206, 156, 216, 0.747);
-  padding: 5px 40px 5px 40px;
+  padding: 10px 40px 10px 40px;
   transition: 0.3s;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
@@ -184,5 +188,10 @@
   .textsection h3{
     font-size: 20px;
     font-weight: 400;
+  }
+
+  .message > div {
+    font-size: 15px;
+    font-weight: normal;
   }
 }
