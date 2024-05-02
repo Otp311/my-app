@@ -62,9 +62,7 @@
   width: 100%;
 }
 
-.input {
-  padding: 20px;
-}
+
 
 .input::placeholder, .textarea::placeholder {
   font-size: 15px;
@@ -73,7 +71,7 @@
 
 .button {
   background-color: rgba(206, 156, 216, 0.747);
-  padding: 10px 40px 10px 40px;
+  padding: 5px 40px 5px 40px;
   transition: 0.3s;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;

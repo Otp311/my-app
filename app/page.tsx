@@ -105,8 +105,8 @@ const HomePage = () => {
 
           <motion.div
             ref={ref}
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 30 }}
+            initial={{ opacity: 0, x: 10 }}
+            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 10 }}
             transition={{ duration: 1 }}
             className={styles.parag}
           >
