@@ -257,7 +257,6 @@
   }
 
   .products {
-    outline: red dashed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,7 +264,6 @@
   }
 
   .product {
-    outline: blue dashed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
